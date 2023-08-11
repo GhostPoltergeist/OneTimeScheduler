@@ -4,8 +4,8 @@ This is a simple Python script that allows you to schedule tasks and receive not
 
 ## Features
 
-░█▀▀▀█ ░█▀▀█ ░█─░█ ░█▀▀▀ ░█▀▀▄ ░█─░█ ░█─── ░█▀▀▀ ░█▀▀█ \n
-─▀▀▀▄▄ ░█─── ░█▀▀█ ░█▀▀▀ ░█─░█ ░█─░█ ░█─── ░█▀▀▀ ░█▄▄▀ 
+░█▀▀▀█ ░█▀▀█ ░█─░█ ░█▀▀▀ ░█▀▀▄ ░█─░█ ░█─── ░█▀▀▀ ░█▀▀█ </br>
+─▀▀▀▄▄ ░█─── ░█▀▀█ ░█▀▀▀ ░█─░█ ░█─░█ ░█─── ░█▀▀▀ ░█▄▄▀ </br>
 ░█▄▄▄█ ░█▄▄█ ░█─░█ ░█▄▄▄ ░█▄▄▀ ─▀▄▄▀ ░█▄▄█ ░█▄▄▄ ░█─░█ 
 
 - Schedule tasks with specific dates and times.
