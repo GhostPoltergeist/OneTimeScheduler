@@ -1,8 +1,8 @@
 # Task Scheduler Python Script
 
-░█▀▀▀█ ░█▀▀█ ░█─░█ ░█▀▀▀ ░█▀▀▄ ░█─░█ ░█─── ░█▀▀▀ ░█▀▀█ 
-─▀▀▀▄▄ ░█─── ░█▀▀█ ░█▀▀▀ ░█─░█ ░█─░█ ░█─── ░█▀▀▀ ░█▄▄▀ 
-░█▄▄▄█ ░█▄▄█ ░█─░█ ░█▄▄▄ ░█▄▄▀ ─▀▄▄▀ ░█▄▄█ ░█▄▄▄ ░█─░█
+#░█▀▀▀█ ░█▀▀█ ░█─░█ ░█▀▀▀ ░█▀▀▄ ░█─░█ ░█─── ░█▀▀▀ ░█▀▀█ 
+#─▀▀▀▄▄ ░█─── ░█▀▀█ ░█▀▀▀ ░█─░█ ░█─░█ ░█─── ░█▀▀▀ ░█▄▄▀ 
+#░█▄▄▄█ ░█▄▄█ ░█─░█ ░█▄▄▄ ░█▄▄▀ ─▀▄▄▀ ░█▄▄█ ░█▄▄▄ ░█─░█
 
 This is a simple Python script that allows you to schedule tasks and receive notifications when the scheduled time arrives. The script uses the `win10toast` library to display notifications on your Windows computer.
 
