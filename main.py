@@ -12,6 +12,12 @@ print("""\033[0;32m
 
 
 def get_task_details():
+    """
+    Prompt the user for task details and return them.
+
+    Returns:
+        tuple: A tuple containing task, date, and time_str strings.
+    """
     task = input("Enter the task: ")
     date = input("Enter the date (YYYY-MM-DD): ")
     time_str = input("Enter the time (HH:MM AM/PM): ")
@@ -19,6 +25,12 @@ def get_task_details():
 
 
 def show_notification(message):
+    """
+    Display a notification with the given message.
+
+    Args:
+        message (str): The message to display in the notification.
+    """
     toaster = ToastNotifier()
     toaster.show_toast("Scheduled Task", message, duration=10)
 
@@ -34,9 +46,11 @@ if __name__ == "__main__":
     for task_info in tasks:
         task, date, time_str = task_info
 
+        # Convert date and time strings to datetime object
         datetime_str = f"{date} {time_str}"
         task_datetime = datetime.datetime.strptime(datetime_str, "%Y-%m-%d %I:%M %p")
 
+        # Calculate the time difference
         current_datetime = datetime.datetime.now()
         time_diff = (task_datetime - current_datetime).total_seconds()
 
