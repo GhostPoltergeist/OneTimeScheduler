@@ -1,7 +1,7 @@
-from win10toast import ToastNotifier
 import datetime
 import time
 import os
+from win10toast import ToastNotifier
 
 os.system('cls')
 print("""\033[0;32m
